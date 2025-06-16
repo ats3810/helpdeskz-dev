@@ -24,19 +24,19 @@ return [
     'goToStaffPanel' => 'スタッフパネルへ移動',
     'goToHelpDesk' => 'HelpDesk ホームへ移動',
     'error' => [
-        'phpVersion' => 'PHP version [b]%req%+[/b] required, you are using: [b]%used%[/b].',
-        'mysql' => 'MySQL is disabled.',
-        'writable' => 'Folder [b]%folder%[/b] is not writable.',
-        'file' => 'The file %file% does not exist.',
-        'fullName' => 'Enter your full name, it may only contain alphanumeric and space characters.',
-        'email' => 'Enter a valid email address.',
-        'username' => 'Enter a valid username, it may only contain alphanumeric, underscore, and dash characters.',
-        'password' => 'Enter a valid password, it must be at least 6 characters in length.',
-        'passwordConfirmation' => 'Passwords do not match.'
+        'phpVersion' => 'PHP バージョン [b]%req%+[/b] が必要です。現在のバージョン: [b]%used%[/b]',
+        'mysql' => 'MySQL が無効です。',
+        'writable' => 'フォルダ [b]%folder%[/b] に書き込みできません。',
+        'file' => 'ファイル %file% が存在しません。',
+        'fullName' => '氏名を入力してください。半角英数字とスペースのみ使用できます。',
+        'email' => '有効なメールアドレスを入力してください。',
+        'username' => '有効なユーザー名を入力してください。半角英数字、アンダースコア、ハイフンが使用できます。',
+        'password' => '6文字以上の有効なパスワードを入力してください。',
+        'passwordConfirmation' => 'パスワードが一致しません。'
     ],
-    'upgradeWizard' => 'Upgrade Wizard',
-    'upgradeInfo' => 'Your HelpDeskZ will be updated to version %version%, please click in the button below to start with this process.',
-    'upgradeStop' => 'You are using the latest version of HelpDeskZ, you do not need to make an upgrade.',
-    'upgradeNoVersion' => 'We did not detect any old installation of HelpDeskZ.',
-    'upgradeFromVersion' => 'You are trying to upgrade from v%old% to v%new%'
+    'upgradeWizard' => 'アップグレードウィザード',
+    'upgradeInfo' => 'HelpDeskZ をバージョン %version% に更新します。開始するには下のボタンをクリックしてください。',
+    'upgradeStop' => 'ご利用の HelpDeskZ は最新バージョンです。アップグレードは不要です。',
+    'upgradeNoVersion' => '既存の HelpDeskZ インストールが検出できませんでした。',
+    'upgradeFromVersion' => 'v%old% から v%new% へアップグレードしようとしています'
 ];
